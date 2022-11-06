@@ -23,7 +23,7 @@ export default function CardDeal() {
           onClick={() => window.location.href="/login"}
           className={`py-4 px-6 font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none mt-10`}
         >
-          OPEN NOW
+          LOGIN NOW
         </button>
       </div>
 
