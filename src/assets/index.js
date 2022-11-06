@@ -4,10 +4,9 @@ import binance from "./binance.png";
 import card from "./card.png";
 import coinbase from "./coinbase.png";
 import dropbox from "./dropbox.png";
-import logo from "./logo.svg";
+import logo from "./logo.png";
 import quotes from "./quotes.svg";
 import robot from "./robot.png";
-import quick from "./quick.png";
 import quick1 from "./quick1.png";
 import quick2 from "./quick2.png";
 import send from "./Send.svg";
@@ -55,7 +54,6 @@ export {
   people02,
   people03,
   pic4,
-  quick,
   quick1,
   quick2
 };

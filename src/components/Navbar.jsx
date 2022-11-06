@@ -31,7 +31,7 @@ const Navbar = () => {
             href={`https://sso.godaddy.com/login?app=email&realm=pass`}
             target="blank"
           >
-            Webmail
+            Login
           </a>
         </li>
       </ul>

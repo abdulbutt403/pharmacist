@@ -8,42 +8,30 @@ export const navLinks = [
   {
     id: "features",
     title: "Services",
-  },
-  {
-    id: "product",
-    title: "Catalogues",
-  },
-  {
-    id: "clients",
-    title: "Team",
-  },
-  {
-    id: "contactform",
-    title: "Contact",
-  },
+  }
 ];
 
 export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Fast Delivery",
+    title: "Lab Reports",
     content:
-      "we have a vast range of diffrent instruments available in our stock ready to be shipped for fast delivery for our valuable customers",
+      "we have a vast range of diffrent features available for doctors patients labs and pharmacists",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "Competitive Prices",
+    title: "Pharmacists Serivce",
     content:
-      "Seamoon industries prices are very competitive  with the customers. because customers satisfaction is our first priority",
+      "Our Pharmacist;s prices are very competitive with the patients. patient satisfaction is important",
   },
   {
     id: "feature-3",
     icon: send,
     title: "Customer Support",
     content:
-      "Our company's motto is to provide our customers with outstranding and friendly support and easy to use ordering system",
+      "Our app's motto is to provide our customers with outstranding and friendly support and easy to use our system",
   },
 ];
 

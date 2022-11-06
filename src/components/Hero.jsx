@@ -14,15 +14,15 @@ const Hero = () => {
         <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
           <img src={discount} alt="discount" className="w-[32px] h-[32px]" />
           <p className={`${styles.paragraph} ml-2`}>
-            <span className="text-white">Pakistan's </span>leading Dental {" "}
-            <span className="text-white">instruments</span> Exporters
+            <span className="text-white">Pharmacist's </span>Labs Doctors {" "}
+            <span className="text-white">patient</span> Service
           </p>
         </div>
 
         <div className="flex flex-row justify-between items-center w-full">
           <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
-            Seamoon <br className="sm:block hidden" />{" "}
-            <span className="text-gradient">Industries</span>{" "}
+            Pharmacist <br className="sm:block hidden" />{" "}
+            <span className="text-gradient">World</span>{" "}
           </h1>
           <div className="ss:flex hidden md:mr-4 mr-0">
             <GetStarted />
@@ -35,7 +35,7 @@ const Hero = () => {
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
           
 
-          we have a vast range of diffrent <span className="text-white">DENTAL, INSTRUMENTS & EQUIPMENTS</span> available in our stock ready to be shipped for fast delivery for our valuable customer
+          we have a vast range of Features for <span className="text-white">DOCTORS, PATIENTS & LABS</span> available for our app users
         </p>
       </div>
 
