@@ -1,6 +1,7 @@
 import styles, { layout } from "../style";
 import React from "react";
 import payment from '../assets/card.png'
+import { dashboardPort } from "./constants";
 
 export default function CardDeal() {
 
@@ -20,7 +21,7 @@ export default function CardDeal() {
 
         <button
           type="button"
-          onClick={() => window.location.href="/login"}
+          onClick={() => window.location.href=`http://localhost:${dashboardPort}/#/login`}
           className={`py-4 px-6 font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none mt-10`}
         >
           LOGIN NOW

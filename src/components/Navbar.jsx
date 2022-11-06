@@ -2,6 +2,7 @@ import { useState } from "react";
 
 import { close, logo, menu } from "../assets";
 import { navLinks } from "../constants";
+import { dashboardPort } from "./constants";
 
 const Navbar = () => {
   const [active, setActive] = useState("Home");
@@ -28,7 +29,7 @@ const Navbar = () => {
           className={`font-poppins font-medium cursor-pointer text-[16px] ${"text-white"}`}
         >
           <a
-            href={`/login`}
+            href={`http://localhost:${dashboardPort}/#/login`}
             target="blank"
           >
             Login
@@ -65,10 +66,10 @@ const Navbar = () => {
               className={`font-poppins font-medium cursor-pointer text-[16px] ${"text-white"}`}
             >
               <a
-                href={`https://sso.godaddy.com/login?app=email&realm=pass`}
+                href={`http://localhost:${dashboardPort}/#/login`}
                 target="blank"
               >
-                Webmail
+               Login
               </a>
             </li>
           </ul>

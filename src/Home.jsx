@@ -23,7 +23,6 @@ const Home = () => (
         <Business />
         <CardDeal />
         <CardDeal2 />
-        <Contact/>
         <Footer />
       </div>
     </div>
