@@ -9,7 +9,7 @@ const Footer = () => (
         <img
           src={logo}
           alt="hoobank"
-          className="w-[266px] h-[102.14px]"
+          className="w-[50px] h-[50.14px]"
         />
         <p className={`${styles.paragraph} mt-4 max-w-[312px]`}>
           A trusted and realaible application .

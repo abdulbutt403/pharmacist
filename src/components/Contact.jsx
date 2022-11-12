@@ -1,4 +1,4 @@
-import  logo  from "../assets/logo.png";
+import  logo  from "../assets/hoobank.svg";
 const Contact = () => (
     <div className="background" id="contactform">
     <div className="container">
