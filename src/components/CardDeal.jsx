@@ -18,14 +18,6 @@ export default function CardDeal() {
           Arcu tortor, purus in mattis at sed integer faucibus. Aliquet quis
           aliquet eget mauris tortor.ç Aliquet ultrices ac, ametau.
         </p>
-
-        <button
-          type="button"
-          onClick={() => window.location.href=`http://localhost:${dashboardPort}/#/login`}
-          className={`py-4 px-6 font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none mt-10`}
-        >
-          LOGIN NOW
-        </button>
       </div>
 
       <div className={layout.sectionImg} id="product">

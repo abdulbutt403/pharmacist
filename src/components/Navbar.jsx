@@ -7,6 +7,7 @@ import { dashboardPort } from "./constants";
 const Navbar = () => {
   const [active, setActive] = useState("Home");
   const [toggle, setToggle] = useState(false);
+  const [moggle, setMoggle] = useState(false);
 
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
@@ -25,16 +26,40 @@ const Navbar = () => {
           </li>
         ))}
         <li
-        style={{marginLeft: 28}}
+          onClick={() => setMoggle(x => !x)}
+          style={{ marginLeft: 28 }}
           className={`font-poppins font-medium cursor-pointer text-[16px] ${"text-white"}`}
         >
-          <a
-            href={`http://localhost:${dashboardPort}/#/login`}
-            target="blank"
-          >
-            Login
-          </a>
+          Login as
         </li>
+
+        <div
+          style={{ zIndex: 9999999 }}
+          className={`${
+            !moggle ? "hidden" : "flex"
+          } p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}
+        >
+          <ul className="list-none flex justify-end items-start flex-1 flex-col">
+      
+              <li
+                className={`font-poppins font-medium cursor-pointer text-[16px] text-white`}
+              >
+                <a href={`http://localhost:3001/authentication/sign-in`}>Patient</a>
+              </li>
+
+              <li
+                className={`font-poppins font-medium cursor-pointer text-[16px] text-white`}
+              >
+                <a href={`http://localhost:3002/authentication/sign-in`}>Pharmacist</a>
+              </li>
+
+              <li
+                className={`font-poppins font-medium cursor-pointer text-[16px] text-white`}
+              >
+                <a href={`http://localhost:3003/authentication/sign-in`}>Lab</a>
+              </li>
+          </ul>
+        </div>
       </ul>
 
       <div className="sm:hidden flex flex-1 justify-end items-center">
@@ -69,7 +94,7 @@ const Navbar = () => {
                 href={`http://localhost:${dashboardPort}/#/login`}
                 target="blank"
               >
-               Login
+                Login
               </a>
             </li>
           </ul>
